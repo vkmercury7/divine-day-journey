@@ -3,8 +3,8 @@ import { Reveal } from "@/components/Reveal";
 import mockupHero from "@/assets/mockup-hero.png";
 import mockupDevices from "@/assets/mockup-devices.png";
 
-// TODO: substituir pelo link real do checkout
-const CHECKOUT_URL = "#checkout-url-aqui";
+const CHECKOUT_URL =
+  "https://hub.usepinpay.com/pay/6553cc59-9bfa-45c9-9219-93f286e6be11";
 
 const TITLE = "21 Dias Para Voltar a Sentir Deus Perto";
 const DESCRIPTION =
@@ -13,7 +13,7 @@ const DESCRIPTION =
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "21 Dias Para Voltar a Sentir Deus Perto | Jornada Devocional" },
+      { title: "21 Dias Para Voltar a Sentir Deus Perto" },
       { name: "description", content: DESCRIPTION },
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
