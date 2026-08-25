@@ -100,7 +100,7 @@ function Price({ large = false }: { large?: boolean }) {
       <span
         className={`font-display leading-none text-foreground ${large ? "text-6xl sm:text-7xl" : "text-5xl sm:text-6xl"}`}
       >
-        R$ 17,90
+        R$ 15,90
       </span>
     </div>
   );
@@ -155,14 +155,7 @@ function Index() {
           </Reveal>
 
           <Reveal delay={120} className="mt-12 w-full">
-            <Price />
-            <p className="mt-4 text-[0.7rem] uppercase tracking-[0.2em] text-muted-foreground">
-              Acesso imediato • Produto digital
-            </p>
-            <div className="mt-8 flex justify-center">
-              <Cta label="Quero começar minha jornada" />
-            </div>
-            <p className="mt-4 text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground">
               Comece hoje sua jornada de 21 dias.
             </p>
           </Reveal>
