@@ -155,14 +155,7 @@ function Index() {
           </Reveal>
 
           <Reveal delay={120} className="mt-12 w-full">
-            <Price />
-            <p className="mt-4 text-[0.7rem] uppercase tracking-[0.2em] text-muted-foreground">
-              Acesso imediato • Produto digital
-            </p>
-            <div className="mt-8 flex justify-center">
-              <Cta label="Quero começar minha jornada" />
-            </div>
-            <p className="mt-4 text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground">
               Comece hoje sua jornada de 21 dias.
             </p>
           </Reveal>
