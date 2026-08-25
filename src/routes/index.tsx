@@ -100,7 +100,7 @@ function Price({ large = false }: { large?: boolean }) {
       <span
         className={`font-display leading-none text-foreground ${large ? "text-6xl sm:text-7xl" : "text-5xl sm:text-6xl"}`}
       >
-        R$ 17,90
+        R$ 15,90
       </span>
     </div>
   );
